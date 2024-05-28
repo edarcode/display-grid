@@ -45,7 +45,7 @@ por ej:
 
 el navegador ve el espacio disponible y lo divide entre las colums que hay, y a cada una le asigna la fr correspondiente. la primera y ultima colum le da 1 parte y a la segunda 2 partes.
 
-# repeat(3, 1fr);
+# repeat(#colums, patrón);
 
 permite indicar de golpe: cantidad de colums y valor de cada una, el valor puede ser un patrón. igualmente funciona con filas.
 
