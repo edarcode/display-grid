@@ -52,3 +52,47 @@ permite indicar de golpe: cantidad de colums y valor de cada una, el valor puede
 ```
 grid-template-columns: repeat(3, 1fr);
 ```
+
+# grid-colum y grid-row
+
+permite indicar a un elemento del grid en que linea empieza o termina del grid, dandonos un control muy potente.
+
+```
+grid-column: 1 / -1;
+```
+
+si no deseas contar lineas, utiliza la palabra span y el num de colums o filas
+
+```
+grid-column: span 3;
+```
+
+# aliniamiento con grid
+
+tenemos 2 opción principales:
+
+- alinear la grid entera
+
+```
+  justify-content: start;
+  align-content: stretch;
+```
+
+mas compacto : primero cross y luego main
+
+```
+  place-content: start stretch;
+```
+
+- alinear elementos del grid.
+
+```
+  justify-items: stretch;
+  align-items: stretch;
+```
+
+mas compacto: primero cross y luego main
+
+```
+  place-items: stretch stretch;
+```
