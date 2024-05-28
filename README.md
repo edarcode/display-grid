@@ -1,4 +1,4 @@
-# display-grid
+# display: grid;
 
 grid permite dar estructura a cualquier caja que imaginemos en filas y columnas con mucha libertad.
 
