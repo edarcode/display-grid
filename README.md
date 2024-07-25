@@ -67,11 +67,11 @@ si no deseas contar lineas, utiliza la palabra span y el num de colums o filas
 grid-column: span 3;
 ```
 
-# aliniamiento con grid
+# Aliniamiento con grid
 
 tenemos 2 opción principales:
 
-- alinear la grid entera
+- alinear la grid entera, el padre debe tener un ancho y alto definido.
 
 ```
   justify-content: start;
